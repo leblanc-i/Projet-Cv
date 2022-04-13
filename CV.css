@@ -1,0 +1,156 @@
+#titre_image
+{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: deepskyblue;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2px;
+    
+
+}
+img
+{
+    width: 180px;
+    height: 195px;
+    margin-right: 40px;
+    margin-left: 15px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 3px blue;
+
+}
+#titre p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: end;
+}
+#nom
+{
+    font-size: 1.4em;
+    text-shadow: 3px 0px 1px black;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+}
+section
+{
+    display: flex;
+}
+article
+{
+    width: 30%;
+    background-color: deepskyblue;
+    padding: 10px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+article ul
+{
+    text-align: left;
+}
+aside
+{
+    background: url("images/fond_jaune.png");
+}
+#experience
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2px;
+}
+#formation
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2px;
+}
+#competence
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2px;
+}
+#interet
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2px;
+}
+#bloc_page
+{
+    width: 99.5%;
+    height: 99.5%;
+}
+h2, h3
+{
+    text-decoration: underline;
+    
+}
+em
+{
+    color: rgb(5, 168, 168);
+    font-style: italic;
+    font-size: large;
+}
+strong
+{
+    font-weight: bold;
+}
+@media screen and (max-width: 1024px)
+{
+    article
+    {
+        font-size: x-small;
+    }
+    #nom
+    {
+        font-size: 1em;
+        margin: auto;
+        justify-content: center;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 430px)
+{
+    aside
+    {
+        font-size: x-small;
+    }
+    #nom
+    {
+        font-size: 10px;
+        margin: auto;
+        justify-content: center;
+        text-align: justify;
+    }
+    #titre p
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-small;
+        text-align: end;
+    }
+    .email
+    {
+        word-wrap: break-word;
+    }
+    img
+    {
+        width: 100px;
+        height: 110px;
+        margin-right: 40px;
+        margin-left: 15px;
+        border-radius: 50%;
+        box-shadow: 4px 4px 3px blue;
+
+    }
+}
